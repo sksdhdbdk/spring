@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--singleton+setter模式下的循环依赖没有问题-->
+    <!--singleton表示在spring容器中是单例的-->
+    <!--在这种模式下spring对bean的管理分为两个阶段
+            第一阶段:在spring容器加载时实例化bean,只要其中一个bean实例化后,马上进行"曝光"(不等属性赋值就曝光)
+            第二阶段:在bean曝光后进行属性赋值 -->
+
+    <!--只有在scope在singleton的情况下,bean才会采取提前曝光-->
+    <!--<bean id="husbandBean" class="com.spring.bean.Husband" scope="singleton">
+        <property name="name" value="张三"/>
+        <property name="wife" ref="wifeBean"/>
+    </bean>
+
+    <bean id="wifeBean" class="com.spring.bean.Wife" scope="singleton">
+        <property name="name" value="小花"/>
+        <property name="husband" ref="husbandBean"/>
+    </bean>-->
+
+    <!--在prototype+setter模式下的循环依赖
+        出现BeanCurrentlyInCreationException-->
+    <!--其中任意一个为singleton就不出异常-->
+    <bean id="husbandBean" class="com.spring.bean.Husband" scope="singleton">
+        <property name="name" value="张三"/>
+        <property name="wife" ref="wifeBean"/>
+    </bean>
+
+    <bean id="wifeBean" class="com.spring.bean.Wife" scope="prototype">
+        <property name="name" value="小花"/>
+        <property name="husband" ref="husbandBean"/>
+    </bean>
+</beans>

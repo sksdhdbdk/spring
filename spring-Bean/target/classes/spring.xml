@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--spring实例化模式-->
+    <!--第一种:直接配置全路径,spring调用无参构造实例化Bean-->
+    <bean id="bean1" class="com.Spring.bean.Bean"/>
+    <!--第二种:简单工厂模式,factory-method指定工厂类的静态方法,调用这个方法获取bean-->
+    <bean id="star" class="com.Spring.bean.StarFactory" factory-method="get"/>
+    <!--第三种:工厂方法模式:facto-bean+facto-method共同完成-->
+    <bean id="gunFactory" class="com.Spring.bean.GunFactory"/>
+    <bean id="gun" factory-bean="gunFactory" factory-method="get"/>
+    <!--第四种:通过FactoryBean接口实现-->
+    <bean id="person" class="com.Spring.bean.PersonFactoryBean"/>
+
+    <!--<bean id="nowTime" class="java.util.Date"/>
+    <bean id="student" class="com.Spring.bean.Student">
+        <property name="birth" ref="nowTime"/>
+    </bean>-->
+
+    <bean id="date" class="com.Spring.bean.DateFactoryBean">
+        <constructor-arg index="0" value="1980-10-11"/>
+    </bean>
+    <bean id="student" class="com.Spring.bean.Student">
+        <property name="birth" ref="date"/>
+    </bean>
+
+</beans>

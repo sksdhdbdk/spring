@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <!--配置bean后处理器-->
+        <!--这个bean后处理器作业与配置文件的所有bean-->
+<!--
+        <bean id="vip" class="com.spring.bean.Vip"/>
+-->
+
+        <bean id="logBean" class="com.spring.bean.LogBean"/>
+        <bean id="user" class="com.spring.bean.User" init-method="initBean" destroy-method="destroyBean" scope="prototype">
+                <property name="name" value="tom"/>
+        </bean>
+</beans>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dynamic-proxy-cglib/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dynamic-proxy-cglib/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dynamic-proxy-jdk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factory-method/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factory-method/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reflect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reflect/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple-factory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple-factory/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spirng-05-Autowired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spirng-05-Autowired/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-06-anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-06-anno/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-07-appconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-07-appconfig/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-08-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-08-proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-09-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-09-aop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-Bean-Lifecycle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-Bean-Lifecycle/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-Bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-Bean/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-aop-realapp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-aop-realapp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-aspectj-aop-anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-aspectj-aop-anno/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cicular-dependency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cicular-dependency/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-jdbc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-junit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-junit/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-tx-bank/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-tx-bank/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

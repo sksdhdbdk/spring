@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-aop-realapp" />
+        <module name="simple-factory" />
+        <module name="spring-cicular-dependency" />
+        <module name="spirng-05-Autowired" />
+        <module name="dynamic-proxy-jdk" />
+        <module name="spring-Bean" />
+        <module name="spring-mybatis" />
+        <module name="spring-08-proxy" />
+        <module name="spring-Bean-Lifecycle" />
+        <module name="spring-tx-bank" />
+        <module name="factory-method" />
+        <module name="reflect" />
+        <module name="spring-junit" />
+        <module name="spring-06-anno" />
+        <module name="spring-09-aop" />
+        <module name="spring-07-appconfig" />
+        <module name="dynamic-proxy-cglib" />
+        <module name="spring-aspectj-aop-anno" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mySpring" target="18" />
+      <module name="spring-001" target="1.8" />
+      <module name="spring-jdbc" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
